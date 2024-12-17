@@ -1,0 +1,27 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    width: 1440px;
+    height: 696px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-item {
+    margin: 12px;
+}
+.gallery-link {}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-image:hover {
+    width: 376px;
+    height: 208px;
+}
